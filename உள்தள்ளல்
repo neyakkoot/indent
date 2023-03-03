@@ -1,0 +1,4 @@
+import textwrap
+உள்ளீடு= input (" உள்ளீட்டுக் குறிப்பு :  ")
+
+print(textwrap.fill(உள்ளீடு, initial_indent= '    '))
